@@ -26,7 +26,7 @@ app.get('/' , (req,res) => {
 });
 
 app.get('/help',(req,res)=>{
-
+    res.send("hello this is help...!");
 });
 app.listen(port,() => {
     console.log(`port number is ${port}`);
